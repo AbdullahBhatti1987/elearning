@@ -7,7 +7,7 @@ function Header() {
   const [isLogin, setIsLogin] = useState(false);
 
   return (
-    <div className="w-full mx-auto darkColor">
+    <div className="w-full mx-auto darkColor shadow-none ">
       <Navbar
         rounded
         className="lg:w-[90%] flex mx-auto justify-between items-center darkColor"
@@ -51,7 +51,7 @@ function Header() {
         </div>
         <Navbar.Collapse className="">
           <Navbar.Link className="h-full flex justify-center items-center">
-            <Link to={"home"} className="text-white">
+            <Link to={"/"} className="text-white">
               Home
             </Link>
           </Navbar.Link>
@@ -75,15 +75,15 @@ function Header() {
             <Link className="lg:hidden md:hidden">Register</Link>
           </Navbar.Link>
 
-          <div className="lg:flex md:flex hidden">
+          <div className="lg:flex md:flex hidden gap-3">
             <Link to={"signin"}>
               <Button
                 title={"Login"}
-                className={"bg-slate-100  text-black me-3"}
+                className={"text-gray-900 bg-slate-100 "}
               />
             </Link>
             <Link to={"register"}>
-              <Button title={"Signup"} className={"lightColor"} />
+              <Button title={"Signup"} className={"lightColor text-white"} />
             </Link>
           </div>
         </Navbar.Collapse>

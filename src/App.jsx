@@ -13,9 +13,9 @@ function App() {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/register" element={<Register />} />
         </Route>
-        <Route path="/"  element={<DashBoard />}>
-          
-          <Route path="/home" index element={<Landing />} />
+          <Route element={<DashBoard />} >
+
+          <Route path="/" index element={<Landing />} />
         </Route>
         {/* Uncomment these routes when needed */}
         {/* {/* <Route path="/blogpage" element={<BlogPage />} />

@@ -31,8 +31,7 @@
 .roundShape{
   width: 1912px;
   height: 646px;
-  border-bottom-left-radius: 50% 100px;
-  border-bottom-right-radius: 50% 100px;
+  clip-path: ellipse(100% 100% at 50% 00%);
 }
 .picture{
   background-image: url("https://s3-alpha-sig.figma.com/img/2f32/d3a9/082c2e2832481561feec93a5e5c5e8d6?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V~5GudI6wwG3b5qRroZsB-LnlkB64OXNTyH03C~Tu1e5avWXXvk92ptNfP~b7O89J-sMUXJPe9RBygIJe3XBdIXdxj7A6xWeLE1wSMNWm0OmKsLLHFGmJMk05GCUwKt5Ab-fN28u0xA1YnBSldnrvatrrpshoM6NYDtKsZPYSX~WpEF4PviLM0pJG2smuDG2zNxYpjI-DwP5QUY37e1d9zA9UcN-yHcIfHvpkj40GHYq-Jc2~zaDQpDXAhA-yjR0UCDlhPHNCdPpZsB6Am3EzzI28SP-50DL7WlpKe-ey1~ZICT8av1a4IMWm02m9SLR4R2SrM7Ytevif9~nERQZmg__");
@@ -40,4 +39,36 @@
   background-size: contain;
   background-position: center;
   overflow: hidden;
+}
+
+.pentagon {
+  width: 100%;
+  height: 600px;
+  background-color: #3498db;
+  position: relative;
+  transform: rotate(0deg); /* Rotate to make it upright */
+}
+/* 
+.pentagon:before {
+  content: "";
+  position: absolute;
+  top: -45px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 45px solid #3498db;
+} */
+
+.pentagon:after {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 45px solid #3498db;
 }
