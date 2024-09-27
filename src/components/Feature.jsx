@@ -2,8 +2,8 @@ import React from "react";
 
 function Feature() {
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+    <section className="text-gray-600 body-font bg-gray-100">
+      <div className="container px-5 py-24 mx-auto ">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-6">
           All-in-One Cloud Software
         </h1>
@@ -11,9 +11,9 @@ function Feature() {
           TOTC in powerful online software suite that combines all the tools
           need to learn a succesful school or office.
         </p>
-        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-          <div className="p-4 md:w-1/3 flex">
-            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+        <div className="flex lg:flex-row md:flex-row justify-between mx-auto sm:flex-row w-[calc(100%-5%)] gap-4  -mb-10 -mt-4">
+        <div className="p-4 md:w-1/3 flex flex-col items-center justify-center bg-white shadow-md">
+            <div className="w-12 h-12 flex flex-col items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -50,7 +50,7 @@ function Feature() {
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 flex">
+          <div className="p-4 md:w-1/3 flex flex-col items-center justify-center bg-white shadow-md">
             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
               <svg
                 fill="none"
@@ -90,7 +90,7 @@ function Feature() {
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 flex">
+          <div className="p-4 md:w-1/3 flex flex-col items-center justify-center bg-white shadow-md">
             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
               <svg
                 fill="none"

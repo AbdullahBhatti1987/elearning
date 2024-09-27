@@ -5,7 +5,7 @@ import StaticNumber from "./StaticNumber";
 function Static() {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 pt-24 mx-auto">
         <Content
           title={"Our Seccess"}
           message={
