@@ -10,14 +10,35 @@
   --lightColor: #92D6D6;
   --darkColor: #49BBBD;
   --logoColor: #00FFF0;
+  --lightBlueColor: #23BDEE;
+  --lightGreenColor: #33EFA0;
+  
 }
 
 
 .darkColor{
   background-color: var(--darkColor)!important; 
 }
+.lightBlueColor{
+  background-color: var(--lightBlueColor)!important; 
+}
+.lightBlueText{
+  color: var(--lightBlueColor)!important; 
+}
+.lightGreenColor{
+  background-color: var(--lightGreenColor)!important; 
+}
+.lightGreenText{
+  color: var(--lightGreenColor)!important; 
+}
 .lightColor{
   background-color: var(--lightColor)!important; 
+}
+.lightText{
+  color: var(--lightColor)!important; 
+}
+.darkText{
+  color: var(--darkColor)!important; 
 }
 .textColor{
   color: var(--darkColor)!important;
