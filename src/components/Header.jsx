@@ -79,7 +79,7 @@ function Header() {
             <Link to={"signin"}>
               <Button
                 title={"Login"}
-                className={"text-gray-900 bg-slate-100 "}
+                className={"darkText bg-slate-100 "}
               />
             </Link>
             <Link to={"register"}>

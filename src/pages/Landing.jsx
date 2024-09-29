@@ -6,17 +6,19 @@ import Hero from "../components/Hero";
 import TimeLine from "../components/TimeLine";
 
 function Landing() {
-
-
   return (
-    <div>
-     <HeroSection />
-      <Static/>
-      <Feature/>
-      <Testimonial />
-      <Hero />
-      <TimeLine />
-    </div>
+      <>
+        <div>
+          <HeroSection />
+        </div>
+        <div className="lg:w-10/12 md:w-11/12 mx-auto">
+          <Static />
+          <Feature />
+          <Testimonial />
+          <Hero />
+          <TimeLine />
+        </div>
+      </>
   );
 }
 

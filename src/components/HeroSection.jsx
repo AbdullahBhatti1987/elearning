@@ -25,9 +25,9 @@ function HeroSection() {
             className={"lightColor min-w-36 text-white"}
           />
           <div className="flex gap-3 items-center">
-            <Button
+            <Button 
               title={<IoMdPlay />}
-              className={"bg-white text-sky-400 min-h-10 text-center max-w-10"}
+              className={"bg-white  text-black min-h-10 text-center max-w-10"}
             />
             <span className="text-nowrap">Watch how it works</span>
           </div>

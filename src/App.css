@@ -19,21 +19,23 @@
 .darkColor{
   background-color: var(--darkColor)!important; 
 }
+.lightColor{
+  background-color: var(--lightColor)!important; 
+}
 .lightBlueColor{
   background-color: var(--lightBlueColor)!important; 
 }
-.lightBlueText{
-  color: var(--lightBlueColor)!important; 
-}
+
 .lightGreenColor{
   background-color: var(--lightGreenColor)!important; 
 }
 .lightGreenText{
   color: var(--lightGreenColor)!important; 
 }
-.lightColor{
-  background-color: var(--lightColor)!important; 
+.lightBlueText{
+  color: var(--lightBlueColor)!important; 
 }
+
 .lightText{
   color: var(--lightColor)!important; 
 }
