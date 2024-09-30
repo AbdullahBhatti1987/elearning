@@ -17,6 +17,7 @@ function Landing() {
           <Testimonial />
           <Hero />
           <TimeLine />
+          
         </div>
       </>
   );
