@@ -1,17 +1,15 @@
 import React from 'react'
-import { FaUser } from "react-icons/fa6";
 import ListItem from '../components/ListItem';
 
-
-function PriceCard({price,duration, shadow = "hover:shadow-2xl", className, iconColor, buttonColor = "bg-white", buttonText = "darkText"}) {
+function PriceCard({packageIcon, price,duration, shadow = "hover:shadow-2xl", className,packageText, iconColor, buttonColor = "bg-white", buttonText = "darkText", topButton, topBtnClass}) {
   return (
     <div className={`priceCard p-8 rounded-3xl bg-white ${shadow} ${className}`}>
     <div className="top flex flex-row flex-nowrap justify-between">
     <div className='flex flex-row gap-1 items-center justify-center'>
-    <FaUser className='text-gray-600'/>
-    <p className='darkText font-bold'>Individual</p>
+    {packageIcon}
+    <p className='darkText font-bold'>{packageText}</p>
     </div>
-    <p className='py-2 px-4 font-semibold border-black rounded-full border-2'>BEST!</p>
+    <p className={`py-2 px-4 font-semibold border-black rounded-full ${topBtnClass}`}>{topButton}</p>
     </div>
     <div className="price flex justify-start items-end">
         <h1 className="text-4xl font-black">${price}</h1>
