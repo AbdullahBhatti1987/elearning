@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function RelatedBlog() {
   return (
-    <div className="bg-blue-100 w-full p-12">
-      <div className="px-6 flex justify-between items-center">
+    <div className="bg-blue-100 w-full py-6 px-12">
+      <div className="p-6 flex justify-between items-center">
         <h1>Related Blog</h1>
         <button className="darkText font-bold">See all</button>
       </div>
@@ -41,7 +41,7 @@ function RelatedBlog() {
         <div className="cards w-1/2 flex flex-col bg-white p-8 gap-4 rounded-3xl">
           <img
             className="rounded-2xl"
-            src="https://s3-alpha-sig.figma.com/img/e4c7/276a/25a9cc6960c67cafa4666142463a3cc6?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e4JNRW4pHi5ZXabYFaoEiaKUDjzRKu4p8nyzA7hr~e3f-GJ2aiOAgAkOamElyYjw-pKJngQrOdyvHymPJwzm8-QL~16Ce3ySjYOY00i4ES0jw41kA1xObSbkTxlAPigtInIJIJ9u6Z~l4vYGRzDejG2MNi~ITHmN9ocNzgtva9fHSM62UfmJU~VHk7bLFQeVjtut3mxGm7SLlz7aqrAhyZWN148pxhTikvE~R42Dnzang9P0rn-PQpR18PhpSuILrhNlifAlA3hVKO67qLu3jpz0qsLAV8I5tIYCpwH-Rh-nlY~2dpAcWy83BXUZqWHr9iycER8nbKwaX8-If6qHMQ__"
+            src="https://s3-alpha-sig.figma.com/img/5abc/f770/24978c219bf2223fc9e32ec5fae8375f?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m0g7H3sqOTRJvdC-61Y7dhV2q8LsIc5rWccB~6adUv5-wjQpjlzwRyIkEcbTQiX57N6LL3a3RabyGIv62wvZ7bVfsIwSKQFdfUJUQB4mXogwe7YfwBx8PaHM66rcdw0GqORNHe64LXOhSDkvSgOXXMDhrCk-gOeSsknc7P7Ic1FLrkaTcu9PfxXOxPLi-VrSkqgAylLmItprqfnYBI9K1Y-dsqbQQCT8YCwn506k7K9X~j8-iDv49uCaHwJyptC3jkYdzaq8PLx0iYpgQjAqSVY59D8CeZCowqhiEwf7H6qYN8x1dePSaxAfpSuC-wVKsU55FrpmRv17t15UE9MErw__"
             alt=""
           />
           <div className="flex flex-col gap-4">

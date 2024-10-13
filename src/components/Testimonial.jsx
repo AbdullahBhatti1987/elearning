@@ -16,7 +16,7 @@ function Testimonial() {
       <div className="flex flex-wrap flex-col lg:flex-row justify-between mx-auto gap-4">
         <div className="relative w-[calc(100%-0.5rem)] lg:w-[calc(50%-0.5rem)] h-full flex justify-center items-center">
           <img
-            src="https://s3-alpha-sig.figma.com/img/e4c7/276a/25a9cc6960c67cafa4666142463a3cc6?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p2rfRtc0ZbaadrJwnd3vLzZF7-vli7~TGfNi7ua2xdZnF~ZfOPBdpHo-sEL1Z8yAVP2X144lb2cwi8-qZ2vKa7zkhSLfe7mQyk6qvDVfrz55EBZIs1LPjy-H9bFiLlSv0ZXCyZa9P~bR8xlBK2cze3zmOXgUcmwzKsBiu3MtYsUxbNyoL8voIp6L~Aq5DeDpo8DmjwMYqMQvvAWGfrB4vQBg4fZPPFEAehAQFVbrxYsDpP4u82dNhFCp1q-RVdn4JmWBt3GAh3zzWoB7ydViEwBx-5FzBoqDkNSiHZpWv~XeOctnEqA3y7qwz3I1~9LaFCF4Z57MvgiKExOJARRpVw__"
+            src="https://s3-alpha-sig.figma.com/img/e4c7/276a/25a9cc6960c67cafa4666142463a3cc6?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e4JNRW4pHi5ZXabYFaoEiaKUDjzRKu4p8nyzA7hr~e3f-GJ2aiOAgAkOamElyYjw-pKJngQrOdyvHymPJwzm8-QL~16Ce3ySjYOY00i4ES0jw41kA1xObSbkTxlAPigtInIJIJ9u6Z~l4vYGRzDejG2MNi~ITHmN9ocNzgtva9fHSM62UfmJU~VHk7bLFQeVjtut3mxGm7SLlz7aqrAhyZWN148pxhTikvE~R42Dnzang9P0rn-PQpR18PhpSuILrhNlifAlA3hVKO67qLu3jpz0qsLAV8I5tIYCpwH-Rh-nlY~2dpAcWy83BXUZqWHr9iycER8nbKwaX8-If6qHMQ__"
             alt=""
             className="rounded-2xl"
           />
@@ -34,7 +34,7 @@ function Testimonial() {
         </div>
         <div className="relative w-[calc(100%-0.5rem)] lg:w-[calc(50%-0.5rem)] h-full flex justify-center items-center">
           <img
-            src="https://s3-alpha-sig.figma.com/img/9efe/4a4c/a2cd8b61986457572fa7c65fe425adc6?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fuJ6nZ1i4vXzLRvIQNsdZLdFzf5fYqcBbCJrCE0-2xAgmRfiSn5lz~I-on7G~MAE6cS7haNXHxj6Jh9SagI4F6g8uJBh4aIJ-pj2UlOYsKvEpAMbpIK63pEyE9S3P21SvH3s5etx49dNRWTRaYbwWFPaHjxSN6jhpSnlxQgpsUBqQQDzyq1RepWum19aQK9E7NafVtKsWdRu-CcLX7DaprsUc7oPyZFNZX73JYONITmeVmZEOvYLz1e5WLekvEtRqdPRos-hNgBUXyWgPXkomDBQubK-QDyTwZeThhcHLd74cZUm7xEEVLmWf6kJlzdEyR2G3Uc4JsuQfviAgFkauw__"
+                     src="https://s3-alpha-sig.figma.com/img/9efe/4a4c/a2cd8b61986457572fa7c65fe425adc6?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AFc2vgE1VIL8OlyD4EzKQkskO4~G3FSQgGT2Gdbw7kIPQ1zmpQ8qLnyS0p8FGVftGkZpA8wiLGxVLxF5Onoommvq32e8JYQnu2LAzO7QMM6OWhGNJMmyW6yujR5LEWu8yjtBjLhmkGrXjPgOZS6VTht24ZBYsznjh1Wp7Jl8Y-6DmYvKnAo5jfzpxeDjBc79as~L8RrdwUuQx~3VXE1EbmDZzXHqg3RYKTRMm4bEkiKsbCNmqv5olVcfhWPZB6UTf5LgSLuEYOAbkgD1AEfSWEpiGSbQS41wxT9lrBE4TO4-2NFd1uUmDc67d914~n3l~7WK25jr09d8UomMcCgQYQ__"
             alt=""
             className="rounded-2xl"
           />

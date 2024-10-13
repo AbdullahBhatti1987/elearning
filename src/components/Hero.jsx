@@ -27,7 +27,7 @@ function Hero() {
           <div className="w-full rounded-2xl overflow-hidden mt-6 sm:mt-0">
             <img
               className="object-cover object-center w-full h-full"
-              src="https://s3-alpha-sig.figma.com/img/7a80/a7af/42c44b95173f6bb18529bebd58808a65?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=binCkykjmmGgisxFY0~mQZZwLBxqBk3zlOyBuiTvHV3K-uYIYN4rMeCMRPyuhz4WzQtaKZPvcPhusbqGMrlyf3KM43wWIVx2KOBmGyzdr0BUNsHsY0jTtKQQdnLH7A3XGLIk6wFsgRkuyt3HZ-dGAdiOPKBY6CDuuU0-fun4JZokXMjfQG5zWMEEeSybP50I7M1tlYcqhlStjWtIkNnDEoP3RZYboQptD1z1P3npSsJniPAKk8huzH8zxPDGwOaNhlbxLnENU8-NKL2FEu~xx8TSlFFL1NNWkc-c6pbCoThQeiWk3XU3gvMgVAWEC~J50HUYGZehE6O7LmVBQCEBag__"
+              src="https://s3-alpha-sig.figma.com/img/7a80/a7af/42c44b95173f6bb18529bebd58808a65?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mj3lUsp6oQOeskqjJj08qjTdeeoJDR9XMXhn3yf0BOF5q9B8v2Wo3lc6aoqeqJkCGWeHeZfFkeKPmk6h4vr1lvALgNr1SbFqTTDu7M09PxrpBQ3z7DPpO91j9KWHn5OJwnOf92nZqGCtuh3sTTSfXtu9KLPp4c0WAuKLXZ3Qx9DrE2pK50954yewPHrd9CutdGBC5vbus~kiNHb4yFfQBqqyvTqu8Fj-ztYH3WYpEpXG4T8EexVufkUcE6x6MrjiRC6yJkloUY63ODe~HpVw8UIbFoJfzTDaml-VBkL~QWyMkzBaWLADOMbVeMWXM-zbczl1ljjU7SAFADuatEZaPg__"
               alt="stats"
             />
           </div>

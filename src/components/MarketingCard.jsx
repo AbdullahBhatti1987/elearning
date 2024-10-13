@@ -1,14 +1,24 @@
 import React from "react";
+import { PiWindowsLogoLight } from "react-icons/pi";
+import { FcClock } from "react-icons/fc";
 
-function MarketingCard() {
+function MarketingCard({img}) {
   return (
-    <div className="flex flex-col lg:flex-row md:flex-wrap w-1/4 p-4">
-      <div className="w-full h-48 bg-blue-100 rounded-2xl"></div>
-      <div className="flex gap-4 flex-col">
-        <img src="" alt="" />
+    <div className="flex flex-col lg:flex-row md:flex-wrap w-1/4 p-6 bg-white rounded-2xl shadow-xl">
+      <div className="w-full pb-2">
+      <img className="rounded-2xl" src={img} alt="" />
+      </div>
+      <div className="flex gap-4 flex-col">       
         <div className="flex justify-between flex-row items-center">
-          <p>Design</p>
-          <p>3 Month</p>
+          <div className="flex flex-row justify-center items-center gap-1">
+            <PiWindowsLogoLight />
+            <p> Design</p>
+          </div>
+          <div className="flex flex-row justify-center items-center gap-1">
+          <FcClock />
+            <p> Month</p>
+          </div>
+   
         </div>
         <h1 className="text-3xl text-black text-start">
           AWS Certified Solutions Architect

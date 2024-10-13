@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 import { IoMdPlay } from "react-icons/io";
 import Component from "./Popover";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   
@@ -20,10 +21,12 @@ function HeroSection() {
           interactive way
         </p>
         <div className="flex  lg:flex-row gap-3 items-center lg:flex-nowrap md:flex-nowrap ">
+          <Link to={"/membership"}>
           <Button
             title={"Join for free"}
             className={"lightColor min-w-36 text-white"}
           />
+          </Link>
           <div className="flex gap-3 items-center">
             <Button 
               title={<IoMdPlay />}

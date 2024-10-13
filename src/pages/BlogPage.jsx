@@ -11,16 +11,6 @@ function BlogPage() {
         <ReadingBlog/>
         <RelatedBlog/>
         <MarketingArticles/>
-        
-
-
-
-
-
-
-
-
-
 
     </div>
   );
