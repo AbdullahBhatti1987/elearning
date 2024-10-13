@@ -12,6 +12,8 @@
   --logoColor: #00FFF0;
   --lightBlueColor: #23BDEE;
   --lightGreenColor: #33EFA0;
+  --footerColor: #252641;
+  ;
   
 }
 
@@ -24,6 +26,9 @@
 }
 .lightBlueColor{
   background-color: var(--lightBlueColor)!important; 
+}
+.footerColor{
+  background-color: var(--footerColor)!important; 
 }
 
 .lightGreenColor{

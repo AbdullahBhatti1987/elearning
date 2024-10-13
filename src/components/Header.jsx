@@ -56,16 +56,16 @@ function Header() {
             </Link>
           </Navbar.Link>
           <Navbar.Link className="h-full flex justify-center items-center">
-            <Link className="text-white">Courses</Link>
+            <Link to={"/courses"} className="text-white">Courses</Link>
           </Navbar.Link>
           <Navbar.Link className="h-full flex justify-center items-center">
-            <Link className="text-white">Careers</Link>
+            <Link to={"/careers"} className="text-white">Careers</Link>
           </Navbar.Link>
           <Navbar.Link className="h-full flex justify-center items-center">
-            <Link className="text-white">Blog</Link>
+            <Link to={"/blogpage"} className="text-white">Blog</Link>
           </Navbar.Link>
           <Navbar.Link className="h-full flex justify-center items-center">
-            <Link className="text-white">About</Link>
+            <Link to={"/about"} className="text-white">About</Link>
           </Navbar.Link>
 
           <Navbar.Link className="lg:hidden md:hidden">
