@@ -1,0 +1,70 @@
+#root {
+  max-width: 1912px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+
+:root{
+  --lightColor: #92D6D6;
+  --darkColor: #49BBBD;
+  --logoColor: #00FFF0;
+  --lightBlueColor: #23BDEE;
+  --lightGreenColor: #33EFA0;
+  --footerColor: #252641;
+  
+  
+}
+
+
+.darkColor{
+  background-color: var(--darkColor)!important; 
+}
+.lightColor{
+  background-color: var(--lightColor)!important; 
+}
+.lightBlueColor{
+  background-color: var(--lightBlueColor)!important; 
+}
+.footerColor{
+  background-color: var(--footerColor)!important; 
+}
+
+.lightGreenColor{
+  background-color: var(--lightGreenColor)!important; 
+}
+.lightGreenText{
+  color: var(--lightGreenColor)!important; 
+}
+.lightBlueText{
+  color: var(--lightBlueColor)!important; 
+}
+
+.lightText{
+  color: var(--lightColor)!important; 
+}
+.darkText{
+  color: var(--darkColor)!important; 
+}
+.textColor{
+  color: var(--darkColor)!important;
+}
+.borderColor{
+  border-color: var(--darkColor)!important;
+}
+.logoColor{
+  border-color: var(--logoColor)!important;
+}
+.roundShape{
+  width: 1912px;
+  height: 90vh;
+  clip-path: ellipse(100% 100% at 50% 00%);
+}
+.picture{
+  background-image: url("https://s3-alpha-sig.figma.com/img/2f32/d3a9/082c2e2832481561feec93a5e5c5e8d6?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mlkQsWWXGBK7BUsQj5p-0rwTOwk7mkBEvAENJxtWEd1hXIYMbdJpp9HjO~g5J8Ce2eWsdJYSAWbaFrRmH9ce4nINfTshi~QTnWBMLTB6ZW9XwsHBoNCmAwJMb96D1hsUxnis4Ts13LdDso3wt-We5cO4mnwVQE0P-e6D7nUyz6COhiY-sx0f7gJnpNa0XLnjlDnhRrAdTyWxv1ebJCAFatBckz6GyEVMx~b-UyKEKZQ6haToxNpReznuvSJk8PYo1tAdzwQgVxcNkALrB02Zt00tUZe6TR6sMMKDYlhfo~aWIiW59dzSan5YcH-lIgibsrRG3cD03MurGxHOo~dlAQ__");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+}
+
